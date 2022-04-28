@@ -4,9 +4,10 @@
 
 ## **Introduction**
 
-This is the code repository of the paper ***Disentangled Latent Speech Representation for Automatic Pathological
-Intelligibility Assessment***.
+This is the code repository for the paper ***Disentangled Latent Speech Representation for Automatic Pathological
+Intelligibility Assessment***, which can be found [here](https://arxiv.org/abs/2204.04016).
 
+It uses an existing architecture, originally desined with Voice Conversion in mind ([SpeechSplit](https://arxiv.org/abs/2004.11284)). However, for this work it is trained differently from the original implementation and only the encoder outputs are used to extract certain latent speech representations. These can then be used in a final step to determine a (pathological) speaker's intelligibility value based on a reference signal.
 
 If you use this repository for your work, please cite the following paper:
 
@@ -18,7 +19,6 @@ If you use this repository for your work, please cite the following paper:
   url = {https://arxiv.org/abs/2204.04016},
   year = {2022},
 }
-
 ```
 
 ## **Requirements**
