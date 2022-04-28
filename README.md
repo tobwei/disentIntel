@@ -1,6 +1,6 @@
 # ***Disentangled Latent Speech Representation for Automatic Pathological Intelligibility Assessment***
 
-![alt text](schematic_digital_v2.pdf)
+![alt text](schematic_digital_v2.png)
 
 ## **Introduction**
 
