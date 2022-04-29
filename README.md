@@ -7,7 +7,7 @@
 This is the code repository for the paper ***Disentangled Latent Speech Representation for Automatic Pathological
 Intelligibility Assessment***, which can be found [here](https://arxiv.org/abs/2204.04016).
 
-It uses an existing architecture, originally desined with Voice Conversion in mind ([SpeechSplit](https://arxiv.org/abs/2004.11284)). However, for this work it is trained differently from the original implementation and only the encoder outputs are used to extract certain latent speech representations. These can then be used in a final step to determine a (pathological) speaker's intelligibility value based on a reference signal.
+It utalizes an existing architecture, originally desined with Voice Conversion in mind ([SpeechSplit](https://arxiv.org/abs/2004.11284)). However, for this work it is trained differently from the original implementation and only the encoder outputs are used to extract certain latent speech representations. These can then be used in a final step to determine a (pathological) speaker's intelligibility value based on a reference signal.
 
 If you use this repository for your work, please cite the following paper:
 
@@ -22,11 +22,21 @@ If you use this repository for your work, please cite the following paper:
 ```
 
 ## **Requirements**
+Refere to the requirements.txt file.
 
 ## **Data**
 
+In principle any dataset can be used for the training of the SpeechSplit architecture (i.e., especially the encoders) of this approach. However, we created and used a subset of the English [Common Voice](https://commonvoice.mozilla.org/en) corpora. For more details please refer to the original paper. The custom dataset can be provided upon request if desired. 
+
+For evaluating and predicting subjective intelligibility scores the [UASpeech](http://www.isle.illinois.edu/sst/data/UASpeech/) corpora was used. 
+
 ## **Training**
+For training please refere to the original speechsplit repository - only hyperparameters changed for training of this paper and the used data of course.
 
 ## **Inference**
 
+Inferencer class 
+
 ## **Intelligibility**
+
+
