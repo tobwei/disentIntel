@@ -22,7 +22,7 @@ If you use this repository for your work, please cite the following paper:
 ```
 
 ## **Requirements**
-Refere to the requirements.txt file.
+Refer to the requirements.txt file.
 
 ## **Data**
 
