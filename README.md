@@ -22,3 +22,11 @@ If you use this repository for your work, please cite the following paper:
 ```
 
 ## **Requirements**
+
+## **Data**
+
+## **Training**
+
+## **Inference**
+
+## **Intelligibility**
