@@ -26,7 +26,7 @@ Refer to the requirements.txt file.
 
 ## **Data**
 
-In principle any dataset can be used for the training of the SpeechSplit architecture (i.e., especially the encoders) of this approach. However, we created and used a subset of the English [Common Voice](https://commonvoice.mozilla.org/en) corpora. For more details please refer to the original paper. The custom dataset can be provided upon request if desired. 
+In principle any dataset can be used for the training of the SpeechSplit architecture (i.e., especially the encoders) of this approach. However, we created and used a subset of the English [Common Voice](https://commonvoice.mozilla.org/en) corpora, in order to enable the encoders to learn general speech features. For more details please refer to the original paper. The custom dataset can be provided upon request if desired. 
 
 For evaluating and predicting subjective intelligibility scores the [UASpeech](http://www.isle.illinois.edu/sst/data/UASpeech/) corpora was used. 
 
