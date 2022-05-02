@@ -9,7 +9,7 @@ Intelligibility Assessment***, which can be found [here](https://arxiv.org/abs/2
 
 It utalizes an existing architecture, originally desined with Voice Conversion in mind ([SpeechSplit](https://arxiv.org/abs/2004.11284)). However, for this work it is trained differently from the original implementation and only the encoder outputs are used to extract certain latent speech representations. These can then be used in a final step to determine a (pathological) speaker's intelligibility value based on a reference signal.
 
-If you use this repository for your work, please cite the following paper:
+Please kindly cite our work if you find this repository useful:
 
 ```
 @article{weise2022disentangled,
