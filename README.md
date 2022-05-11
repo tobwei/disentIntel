@@ -41,4 +41,4 @@ Inferencer class
 
 ## **Intelligibility**
 
-
+intelligibility.py functions
