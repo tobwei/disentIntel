@@ -35,8 +35,8 @@ For training please refere to the original speechsplit repository - only hyperpa
 
 ## **Inference**
 
-Inferencer class 
+Inferencer class can be used for performing inference with the trained SpeechSplit model, in order to extract the three embeddings. If you want to use the weights that were trained as described in the paper, simply send us a request and we will provide them. 
 
 ## **Intelligibility**
 
-intelligibility.py functions
+For intelligibility functions/experiments please have a look at the intelligibility.py file and the functions contained in it.
