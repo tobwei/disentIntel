@@ -31,7 +31,7 @@ In principle any dataset can be used for the training of the [SpeechSplit](https
 For evaluating and predicting subjective intelligibility scores the [UASpeech](http://www.isle.illinois.edu/sst/data/UASpeech/) corpora was used. 
 
 ## **Training**
-For training please refer to the original [SpeechSplit repository](https://github.com/auspicious3000/SpeechSplit) - only hyperparameters changed for training of this paper and the used data of course.
+For training please refer to the original [SpeechSplit repository](https://github.com/auspicious3000/SpeechSplit) - only hyperparameters (specifically padding) changed for training of this paper and the used data of course.
 
 ## **Inference**
 
