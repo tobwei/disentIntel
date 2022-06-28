@@ -27,6 +27,8 @@ Refer to the requirements.txt file.
 ## **Data**
 In principle any dataset can be used for the (unsupervised in the context of Voice Conversion, i.e. without text transcriptions - however, speaker ID's are required) training of the [SpeechSplit](https://arxiv.org/abs/2004.11284) architecture (i.e., especially the encoders) of this approach. We created and used a subset of the English [Common Voice](https://commonvoice.mozilla.org/en) corpora, in order to enable the encoders to learn general speech features. For more details please refer to the original paper. The custom dataset can be provided upon request if desired. 
 
+After chosing a desired dataset for training, some pre-processing steps (make_spect_f0.py and make_metadata.py) are required before starting the actual training process, as described in the original [SpeechSplit repository](https://github.com/auspicious3000/SpeechSplit).
+
 For evaluating and predicting subjective intelligibility scores the [UASpeech](http://www.isle.illinois.edu/sst/data/UASpeech/) corpora was used. 
 
 ## **Training**
